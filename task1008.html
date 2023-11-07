@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1008</title>
+</head>
+<script>
+    function calc(){
+   if (((document.f.A.value) ** 3) >= (document.f.M.value))
+   {f.res1.value = "поместится";}
+   else
+   {f.res1.value = "не поместится";}
+}
+
+    function calc1(){
+    if (((document.f.R.value) * ((document.f.H.value) ** 2)) >= (document.f.M.value))
+   {f.res2.value = "поместится";}
+   else
+   {f.res2.value = "не поместится";}
+    }
+
+    function calc2(){
+    if (((document.f.A.value) ** 3) + ((document.f.R.value) * ((document.f.H.value) ** 2)) >= (document.f.M.value))
+   {f.res3.value = "поместится";}
+   else
+   {f.res3.value = "не поместится";}
+    }
+</script>
+
+<body bgcolor="FDEFFC">
+<h1 align="middle"><font size="5" color="F56267" face="Arial">Алгоритмическая задачка 1008 </h1>
+<p align="middle"><font size="3" color="F56267" face="Arial">1008. Имеются две ёмкости: кубическая с ребром A, цилиндрическая с высотой H и радиусом основания R. Определить, можно ли заполнить жидкостью
+объёма M первую ёмкость, вторую, обе.</p>
+<form name="f" action="https://www.yandex.ru/search?" target="_blank">
+    <p>Формалировка задания:</p>
+    <input type="text" name="formulirovka" value="Имеются две ёмкости: кубическая с ребром A, цилиндрическая с высотой H и радиусом основания R. Определить, можно ли заполнить жидкостью
+объёма M первую ёмкость, вторую, обе.">
+<p>Укажите сторону куба</p>
+    <input type="text" name="A" value="0">
+     <p>Укажите высоту цилиндра</p>
+    <input type="text" name="R" value="0">
+     <p>Укажите радиус цилиндра</p>
+    <input type="text" name="H" value="0">
+    <p>Сколько воды?</p>
+    <input type="text" name="M" value="0">
+     <p>Поместится ли в кубе?</p>
+    <input type="text" name="res1" value="0">
+    <input type="button" value="Узнать" onclick="calc()">
+     <p>Поместится ли в цилиндре?</p>
+    <input type="text" name="res2" value="0">
+    <input type="button" value="Узнать" onclick="calc1()">
+     <p>Посемится ли в обеих емкостях?</p>
+    <input type="text" name="res3" value="0">
+    <input type="button" value="Узнать" onclick="calc2()">
+    <input type="Reset" name="Reset" value="Обновить">
+    <input type="Submit" name="Submit" value="Отправить">
+
+</form>
+</body>
+</html>
