@@ -4,4 +4,5 @@
 Сайт: https://marypj25.github.io/Homework/OkashiBanashi/OkashiBanashi.html <br>
 https://marypj25.github.io/Homework/boot_hw2.html<br>
 https://marypj25.github.io/Homework/hw2/kapets.html<br>
-https://marypj25.github.io/Homework/hw2/kapets.html
+https://marypj25.github.io/Homework/hw2/kapets.html<br>
+https://marypj25.github.io/Homework/kapets1.html <br>
